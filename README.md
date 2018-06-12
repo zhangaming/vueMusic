@@ -19,5 +19,12 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 5.7
+1. 1- 7.8
 ## 6.3
+
 1. 7-9 7-10 播放器歌曲前进后退功能实现
+## 6.12
+
+1. 7-11播放器播放时间获取和更新
+2. 
