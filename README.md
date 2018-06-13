@@ -26,5 +26,10 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 1. 7-9 7-10 播放器歌曲前进后退功能实现
 ## 6.12
 
-1. 7-11播放器播放时间获取和更新
-2. 
+1. 7-11 播放器播放时间获取和更新
+2. 7-12 播放器progress-bar进度条组件实现(上)
+
+## 6.13
+
+1. 7-13 播放器progress-bar进度条组件实现(中)
+2. 7-14 播放器progress-bar进度条组件实现(下)
