@@ -33,3 +33,12 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 1. 7-13 播放器progress-bar进度条组件实现(中)
 2. 7-14 播放器progress-bar进度条组件实现(下)
+
+## 6.14
+
+1. 7-15 播放器progress-circle圆形进度条组件实现
+2. 7-16 播放器模式切换功能实现（上）
+3. 7-17 播放器模式切换功能实现（中）
+4. 7-18 播放器模式切换功能实现（下）
+5. 7-19 播放器歌词数据抓取
+6. 7-20 播放器歌词数据解析
