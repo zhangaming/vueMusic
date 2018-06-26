@@ -19,7 +19,8 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-## 5.7
+
+## 4.23 - 5.7
 1. 1- 7.8
 ## 6.3
 
@@ -43,5 +44,9 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 5. 7-19 播放器歌词数据抓取
 6. 7-20 播放器歌词数据解析
 
-##6.20
+##6.20 6.25
 1. 7-21播放器歌词滚动列表实现
+
+## 6.26
+1. 7-22播放器歌词左右滑动实现（上）
+2. 7-23播放器歌词左右滑动实现（下）
