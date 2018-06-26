@@ -42,3 +42,6 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 4. 7-18 播放器模式切换功能实现（下）
 5. 7-19 播放器歌词数据抓取
 6. 7-20 播放器歌词数据解析
+
+##6.20
+1. 7-21播放器歌词滚动列表实现
