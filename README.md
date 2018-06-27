@@ -21,7 +21,7 @@ npm run build --report
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 ## 4.23 - 5.7
-1. 1- 7.8
+1. 1.1- 7.8
 ## 6.3
 
 1. 7-9 7-10 播放器歌曲前进后退功能实现
@@ -50,3 +50,4 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 ## 6.26
 1. 7-22播放器歌词左右滑动实现（上）
 2. 7-23播放器歌词左右滑动实现（下）
+3. 7-24播放器歌词剩余功能实现
