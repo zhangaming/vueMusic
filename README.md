@@ -51,3 +51,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 1. 7-22播放器歌词左右滑动实现（上）
 2. 7-23播放器歌词左右滑动实现（下）
 3. 7-24播放器歌词剩余功能实现
+
+## 6.27
+1. 7-25播放器底部播放器适配+mixin的应用
+2. 8-1歌单详情页布局介绍Vuex实现路由数据通讯

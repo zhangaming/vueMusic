@@ -82,17 +82,20 @@
                 this.touch.anchorIndex = anchorIndex
                 this._scrollTo(anchorIndex)
             },
-            onShortcutTouchMove(e){
+            onShortcutTouchMove(e) {
                 let firstTouch = e.touches[0]
                 this.touch.y2 = firstTouch.pageY
                 let delta = (this.touch.y2 - this.touch.y1) / ANCHOR_HEIGHT | 0
                 let anchorIndex = parseInt(this.touch.anchorIndex) + delta
                 this._scrollTo(anchorIndex)
             },
+            refresh() {
+                this.$refs.listview.refresh()
+            },
             scroll(pos) {
                 this.scrollY = pos.y
             },
-            _scrollTo(index){
+            _scrollTo(index) {
                 if(!index && index!==0){
                     return
                 }
