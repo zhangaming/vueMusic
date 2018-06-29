@@ -55,3 +55,8 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 ## 6.27
 1. 7-25播放器底部播放器适配+mixin的应用
 2. 8-1歌单详情页布局介绍Vuex实现路由数据通讯
+
+## 6.29
+1. 8-2歌单详情页数据抓取
+2. 8-3歌单详情页数据的处理和应用
+3. 9-1排行榜页面布局介绍给排行榜数据抓取
