@@ -45,7 +45,6 @@ export function getSongList(disstid) {
             platform: 'yqq',
             hostUin: 0,
             needNewCode: 0,
-            g_tk: 1496485576,
             format: 'json'
         })
         // return jsonp(url, data, options1)

@@ -60,3 +60,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 1. 8-2歌单详情页数据抓取
 2. 8-3歌单详情页数据的处理和应用
 3. 9-1排行榜页面布局介绍给排行榜数据抓取
+
+## 6.30 
+1. 9-2排行页排行榜数据应用
+2. 9-3榜单详情也布局介绍及Vuex实现路由数据通讯

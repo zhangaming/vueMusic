@@ -10,7 +10,6 @@ export function getLyric(mid) {
         platform: 'yqq',
         hostUin: 0,
         needNewCode: 0,
-        g_tk: 67232076,
         format: 'json'
     })
 
