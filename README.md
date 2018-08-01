@@ -65,3 +65,6 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 1. 9-2排行页排行榜数据应用
 2. 9-3榜单详情也布局介绍及Vuex实现路由数据通讯
 3. 9-4榜单详情页数据抓取和应用
+
+## 8.1 
+1. 9-5 带排行的song-list组件的扩展和应用
