@@ -68,3 +68,8 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 ## 8.1 
 1. 9-5 带排行的song-list组件的扩展和应用
+
+## 8.10
+1. 10-1搜索页面页面布局和功能介绍
+2. 10-2搜索页面search-box组件开发
+3. 10-3搜索页面热门搜索数据抓取和应用
