@@ -9,7 +9,7 @@
                     <h1 class="title">热门搜索</h1>
                     <ul>
                         <li @click="addQuery(item.k)" class="item" v-for="(item,index) in hotkey" :key="index">
-                            <span>{{item.k}}</span>
+                            <span >{{item.k}}</span>
                         </li>
                     </ul>
                 </div>
@@ -44,7 +44,6 @@
             },
             onQueryChange(query) {
                 this.query = query;
-                console.log(query)
             },
             _getHotKey() {
                 getHotKey().then((res) => {
@@ -96,4 +95,5 @@
             width 100%
             top 178px
             bottom 0
+            z-index -1
 </style>

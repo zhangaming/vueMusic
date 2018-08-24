@@ -1,7 +1,7 @@
 <template>
     <div class="suggest">
         <ul class="suggest-list">
-            <li class="suggest-item" v-for ="item in result" :key="item">
+            <li class="suggest-item" v-for ="(item,index) in result" :key="index">
                 <div class="icon">
                     <i :class="getIconCls(item)"></i>
                 </div>
@@ -40,8 +40,7 @@
         methods:{
             search(){
                 search(this.query,this.page,this.showSinger).then((res) =>{
-                    console.log(res)
-                    if(res.code === ERR_OK) {
+                    if(res.code === 0) {
                         this.result = this._genResult(res.data)
                     }
                 })
@@ -55,20 +54,19 @@
             },
             getDisplayName(item) {
                 if(item.type === TYPE_SINGER){
-                    return item.singername
+                    return item.singerName
                 }else{
-                    return `${item.songname}-${filterSinger(item.singer)}`
+                    return `${item.fsong}-${item.fsinger}`
                 }
             },
             _genResult(data) {
                 let ret = [];
-                if(data.zhida && data.zhida.singerid) {
-                    ret.push({...data.zhida,...{type:TYPE_SINGER}})
+                if(data.zhida && data.zhida.zhida_singer && data.zhida.zhida_singer.singerID) {
+                    ret.push({...data.zhida.zhida_singer,...{type:TYPE_SINGER}})
                 }
                 if(data.song) {
                     ret = ret.concat(data.song.list)
                 }
-                console.log(ret);
                 return ret
             }
         },
