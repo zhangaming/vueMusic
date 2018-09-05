@@ -75,4 +75,8 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 3. 10-3搜索页面热门搜索数据抓取和应用
 
 ## 8.24
-4. 10-4搜索yemiansuggest组件开发（1） (暴气 垃圾接口给我禁止跨域访问 苦啊 求API) //搞定
+1. 10-4搜索yemiansuggest组件开发（1） (暴气 垃圾接口给我禁止跨域访问 苦啊 求API) //搞定
+
+## 9.5 
+1. 10-4 搜索yemiansuggest组件开发（1） (API需要申请代理) //搞定
+2. 10-5 10-5搜索页面suggest组件开发（2）
