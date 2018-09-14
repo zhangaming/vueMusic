@@ -29,6 +29,10 @@
             pullup: {
                 type: Boolean,
                 default:false
+            },
+            beforeScroll: {
+                type: Boolean,
+                default:false
             }
         },
         mounted() {
@@ -59,6 +63,12 @@
                         if(me.scroll.y <= (me.scroll.maxScrollY + 50)) {
                             me.$emit('scrollToEnd')
                         }
+                    })
+                }
+
+                if(this.beforeScroll) {
+                    this.scroll.on('beforeScrollStart',() => {
+                        this.$emit('beforeScroll')
                     })
                 }
             },
