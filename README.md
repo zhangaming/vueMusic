@@ -80,3 +80,9 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 ## 9.5 
 1. 10-4 搜索yemiansuggest组件开发（1） (API需要申请代理) //搞定
 2. 10-5 10-5搜索页面suggest组件开发（2）
+
+## 9.14
+1. 10-6 搜索页面suggest组件开发（3）
+2. 10-7 搜索页面suggest组件开发（4）
+3. 10-8搜索页面suggest组件开发（5）
+4. 10-8搜索页面suggest组件开发（6）
