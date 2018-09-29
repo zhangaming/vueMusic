@@ -93,3 +93,4 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 2. 10-12 13 数据的存储 存到本地缓存中 历史列表的存储
 3. 10-14 搜索历史列表
 4. 10-15 searchList的交互 删除功能
+5. 10-16 弹窗提示功能
