@@ -87,3 +87,9 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 3. 10-8搜索页面suggest组件开发（5）
 4. 10-9搜索页面suggest组件开发（6）
 5. 10-10 函数节流 与搜索没有的情况 input框失去焦点时 列表滚动时让键盘收起
+
+## 9.29
+1. 10-11 搜索历史列表的相关数据结构
+2. 10-12 13 数据的存储 存到本地缓存中 历史列表的存储
+3. 10-14 搜索历史列表
+4. 10-15 searchList的交互 删除功能
