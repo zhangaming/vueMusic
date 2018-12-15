@@ -19,3 +19,21 @@ export function getLyric(mid) {
         return Promise.resolve(res.data)
     })
 }
+
+export function getSongUrl(name,limit) {
+    const url = 'https://api.bzqll.com/music/tencent/search'
+
+    const data = Object.assign({}, {
+        key: 579621905,
+        s: name,
+        limit: limit,
+        offset: 0,
+        type:'song'
+    })
+
+    return axios.get(url, {
+        params: data
+    }).then((res) => {
+        return Promise.resolve(res.data)
+    })
+}

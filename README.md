@@ -94,3 +94,12 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 3. 10-14 搜索历史列表
 4. 10-15 searchList的交互 删除功能
 5. 10-16 弹窗提示功能
+
+## 12.11
+1. 10-17 搜索框滚动
+2. 10-18 滚动框
+
+## 12.15
+1. 修改QQ音乐API 让他能播放 但是还是有时候没请求到 暂时不知道原因
+2. 尝试编译打包 起node server服务
+3. 组件异步加载
